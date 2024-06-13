@@ -1,0 +1,95 @@
+# JavaScript Test
+
+Filter Data by Status
+
+## Description
+
+This project contains a function to filter nested objects based on a given status. It demonstrates the use of functional programming and adherence to SOLID principles.
+
+## Prerequisites
+
+- Node.js installed on your system. You can download and install it from [Node.js official website](https://nodejs.org/).
+
+## Getting Started
+
+1. Clone this repository or download the files to your local machine.
+
+2. Ensure you have Node.js installed by running the following command in your command line:
+   ```sh
+   node -v
+   ```
+   This should display the installed Node.js version.
+
+## Running the Solution
+
+1. Open your command line or terminal.
+
+2. Navigate to the directory where your project files are located. For example:
+
+   ```sh
+   cd path/to/your/project
+   ```
+
+3. Run the following command to execute the script:
+
+   ```sh
+   node main.js
+   ```
+
+4. You should see the filtered output in the console.
+
+## Expected Output
+
+```json
+[
+  {
+    "my_data": [
+      {
+        "her_data": [
+          {
+            "get_me_out": {
+              "status": true
+            }
+          }
+        ]
+      },
+      {
+        "his_data": [
+          {
+            "get_me_out": {
+              "status": true
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "my_data": [
+      {
+        "her_data": [
+          {
+            "get_me_out": {
+              "status": true
+            }
+          }
+        ]
+      },
+      {
+        "his_data": [
+          {
+            "get_me_out": {
+              "status": true
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
+```
+
+## Additional Notes
+
+- Ensure you follow the exact directory structure and file names.
+- If you encounter any issues, verify your Node.js installation and the directory path.
